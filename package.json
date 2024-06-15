@@ -1,0 +1,17 @@
+{
+  "name": "@kirestein/electron-chat",
+  "version": "1.0.0",
+  "description": "An app created using react, electron and firebase",
+  "main": "main.js",
+  "repository": "https://github.com/kirestein/electronChat1.git",
+  "author": "kirestein <erik.proenca2011@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "devDependencies": {
+    "electron": "^31.0.1"
+  }
+}
